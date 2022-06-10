@@ -6,6 +6,7 @@
   
   body, html {
     height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
 .hero-image {
@@ -18,7 +19,6 @@
   }
   
   .hero-text {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
     text-align: center;
     position: absolute;
@@ -27,3 +27,22 @@
     transform: translate(-50%, -50%);
     color: white;
   }
+
+nav {
+    background-color: #060505;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+}
